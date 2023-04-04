@@ -212,10 +212,8 @@ p{
 
 
 /*video*/
-.video{
-    width: 50%;
-    height: auto;
-    padding-bottom: 30px;
+iframe{
+    padding-bottom: 30px; 
 }
 
 
