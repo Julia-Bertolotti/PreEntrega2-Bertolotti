@@ -456,6 +456,7 @@ input{
     }
 }
 
+/*media queries contacto*/
 @media only screen and (max-width: 768px){
     .flex {
         flex-direction: column;
@@ -466,6 +467,7 @@ input{
     }
 }
 
+/*media queries grid*/
 @media (max-width: 768px){
     #indice{
         grid-template-columns: repeat (2, 1fr);
@@ -475,5 +477,32 @@ input{
         "img2 text1"
         "img3 img4"
         "text2 img5";
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*media queries carousel*/
+@media (max-width:768){
+    .contenedor-carousel {
+        width: 600px;
+        height: 300px;
+    }
+
+    .carousel-image{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media (max-width:480px){
+    .contenedor-carousel {
+        width: 300px;
+        height: 150px;
+    }
+
+    .carousel-image{
+        width: 300px;
+        height: 150px;
     }
 }
