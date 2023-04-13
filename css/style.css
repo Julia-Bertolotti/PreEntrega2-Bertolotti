@@ -545,6 +545,20 @@ input{
     }
 }
 
+@media only screen and (max-width: 768px){
+    .actividades-index{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .button{
+        
+    }
+}
+
 /*media queries mapa*/
 @media (max-width: 767px){
     .mapa{
