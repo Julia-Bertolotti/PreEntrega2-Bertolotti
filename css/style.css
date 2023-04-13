@@ -51,7 +51,7 @@
 }
 
 .contenedor-carousel{
-    width: 60%;
+    width: 70%;
     height: auto;
     margin: 20px auto;
 }
@@ -212,6 +212,18 @@ p{
 
 
 /*video*/
+.video-contenedor{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.video-contenedor iframe{
+    width: 90%;
+    height: auto;
+}
+
 iframe{
     padding-bottom: 30px; 
 }
@@ -449,12 +461,15 @@ input{
         margin: 40px auto;
 }
  
+
+/*MEDIA QUERIES*/
 /*media queries*/
 @media (min-width: 768px){
     .col-md-6 .col-lg-3 .card:hover{
         transform: scale(1.1);
     }
 }
+
 
 /*media queries contacto*/
 @media only screen and (max-width: 768px){
@@ -467,23 +482,40 @@ input{
     }
 }
 
+
 /*media queries grid*/
 @media (max-width: 768px){
     #indice{
-        grid-template-columns: repeat (2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: (4, 1fr);
         grid-template-areas:
         "img2 img1"
         "img2 text1"
         "img3 img4"
         "text2 img5";
-        justify-content: center;
+        justify-items: center;
         align-items: center;
     }
 }
 
+@media only screen and (max-width: 600px){
+    #indice{
+        grid-template-columns: 1fr;
+        grid-template-rows: (8, 1fr);
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img2"
+        "text1"
+        "img3"
+        "img4"
+        "text2"
+        "img5";
+    }
+}
+
 /*media queries carousel*/
-@media (max-width:768){
+@media (max-width:768px){
     .contenedor-carousel {
         width: 600px;
         height: 300px;
@@ -506,3 +538,26 @@ input{
         height: 150px;
     }
 }
+
+/*media queries card*/
+@media only screen and (max-width: 768px) {
+    .card-contenedor{
+        flex-basis: 100%;
+    }
+}
+
+/*media queries mapa*/
+@media (max-width: 767px){
+    .mapa{
+        width: 90%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px){
+    .mapa{
+        width: 90%;
+        height: 500px;
+    }
+}
+
