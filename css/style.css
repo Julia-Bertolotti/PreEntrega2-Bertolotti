@@ -343,7 +343,7 @@ input{
 }
  
 
-/* section actividades*/
+/*section actividades*/
 .contenedor-actv{
     display: flex;
     width: 100%;
@@ -470,7 +470,7 @@ input{
 }
 
 
-/*media queries contacto*/
+/*media queries section contacto*/
 @media only screen and (max-width: 768px){
     .flex {
         flex-direction: column;
@@ -553,12 +553,6 @@ input{
     }
 }
 
-@media only screen and (max-width: 768px){
-    .button{
-        
-    }
-}
-
 /*media queries mapa*/
 @media (max-width: 767px){
     .mapa{
@@ -574,3 +568,9 @@ input{
     }
 }
 
+/*media queries section actividades*/
+@media screen and (max-width: 768px){
+    .contenedor-actv{
+        flex-direction: column;
+    }
+}
