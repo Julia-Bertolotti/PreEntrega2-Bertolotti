@@ -574,3 +574,27 @@ input{
         flex-direction: column;
     }
 }
+
+/*media queries header*/
+@media only screen and (max-width: 767px){
+    .header{
+        height: auto;
+    }
+
+        .header p{
+            font-size: 1rem;
+        }
+}
+
+/*media queries textos*/
+@media only screen and (max-width: 767px){
+    .p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .h1{
+        font-size: 2em;
+    }
+}
