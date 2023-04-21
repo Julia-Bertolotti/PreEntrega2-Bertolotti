@@ -1,0 +1,39 @@
+//index
+
+
+.actividades-index{
+    display: flex;
+    padding: 0 30p;
+    figure{
+        justify-content: center;
+        p{
+            color: $figureColor;
+            margin: 20px 0;
+            text-align: center;
+            line-height: 1.6em;
+            font-size: 1.4em;
+        }
+        button{
+           background-color: $secondaryColor;
+           color: $textColor;
+           border: solid;
+           border-radius: 8px;
+           padding: 8px;
+           margin-bottom: 16px ;
+        }
+    }
+
+}
+
+.contenedor-index{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    img{
+        max-width: 50%;
+        height: auto;
+        margin: 40px auto; 
+    }
+}
+
+ 

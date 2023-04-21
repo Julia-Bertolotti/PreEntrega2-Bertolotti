@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro&display=swap");
+.botonera {
+  color: rgba(255, 255, 255, 0.4);
+}
+.botonera img {
+  width: 30%;
+  height: 30%;
+}
+.botonera ul li a {
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.botonera ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(128, 75, 75);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  color: rgb(117, 91, 91);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+footer {
+  display: flex;
+  position: static;
+  padding: 30px 30px;
+  background-color: rgb(220, 220, 170);
+  width: 100%;
+  justify-content: space-around;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  color: black;
+  font-size: 1.2em;
+}
+
+label {
+  color: black;
+}
+
+.actividades-index {
+  display: flex;
+  padding: 0 30p;
+}
+.actividades-index figure {
+  justify-content: center;
+}
+.actividades-index figure p {
+  color: rgb(69, 66, 66);
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.6em;
+  font-size: 1.4em;
+}
+.actividades-index figure button {
+  background-color: white;
+  color: black;
+  border: solid;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.contenedor-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-index img {
+  max-width: 50%;
+  height: auto;
+  margin: 40px auto;
+}
+
+/*# sourceMappingURL=main.css.map */

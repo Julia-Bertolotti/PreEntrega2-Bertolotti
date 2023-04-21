@@ -1,0 +1,24 @@
+//anidación
+.botonera{
+    color: $botoneraColor;
+    img{
+        width: 30%;
+        height: 30%;
+    }
+
+    ul{
+        li{
+            a{
+                color: $textColor;
+                font-family: $mainFont;
+                text-decoration: none;
+                font-size: $textExtrasm;
+                font-weight: $textWeight;
+                &:hover{
+                    color: $hoverColor;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

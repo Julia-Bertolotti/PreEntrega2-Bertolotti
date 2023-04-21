@@ -1,0 +1,48 @@
+h1, 
+h2, 
+h3{
+   color: $hColor;
+   font-family: $mainFont;
+   font-weight: $textBold;
+}
+
+h1{
+    font-size: $textLg;
+}
+
+h2{
+    font-size: $textMd;
+}
+
+h3{
+    font-size: $textSm;
+}
+
+p{
+    color: $pColor;
+    font-family: $mainFont;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+footer{
+    display: flex;
+    position: static;
+    padding: 30px 30px;
+    background-color: $footerColor;
+    width: 100%;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+    } 
+
+    p{
+        color: $textColor;
+        font-size: $textExtrasm;
+    }    
+}
+
+label{
+    color: $textColor;
+}
