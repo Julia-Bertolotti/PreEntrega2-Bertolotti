@@ -580,3 +580,10 @@ input{
         font-size: 2em;
     }
 }
+
+/*media queries nav*/
+@media only screen and (max-width: 768px) {
+    .botonera img {
+        width: 10%;
+    }
+}
