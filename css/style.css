@@ -498,25 +498,25 @@ input{
 /*media queries carousel*/
 @media (max-width:768px){
     .contenedor-carousel {
-        width: 600px;
-        height: 300px;
+        width: 400px;
+        height: 200px;
     }
 
     .carousel-image{
-        width: 600px;
-        height: 300px;
+        width: 400px;
+        height: 200px;
     }
 }
 
 @media (max-width:480px){
     .contenedor-carousel {
-        width: 300px;
-        height: 150px;
+        width: 200px;
+        height: 100px;
     }
 
     .carousel-image{
-        width: 300px;
-        height: 150px;
+        width: 200px;
+        height: 100px;
     }
 }
 
@@ -585,6 +585,5 @@ input{
 @media only screen and (max-width: 768px) {
     .botonera img {
         width: 20%;
-        height: auto;
     }
 }
