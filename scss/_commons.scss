@@ -46,3 +46,11 @@ footer{
 label{
     color: $textColor;
 }
+
+main{
+    section{
+        p{
+           @include textos(1.2em, 1.6em, white)
+        }
+    }
+}

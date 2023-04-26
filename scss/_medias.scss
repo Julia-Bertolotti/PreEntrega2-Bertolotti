@@ -1,0 +1,144 @@
+/*MEDIA QUERIES*/
+/*media queries*/
+@media (min-width: 768px){
+    .col-md-6 .col-lg-3 .card:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+/*media queries section contacto*/
+@media only screen and (max-width: 768px){
+    .flex {
+        flex-direction: column;
+    }
+
+    .columna {
+        width: 100%;
+    }
+}
+
+
+/*media queries grid*/
+@media (max-width: 768px){
+    #indice{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: (4, 1fr);
+        grid-template-areas:
+        "img2 img1"
+        "img2 text1"
+        "img3 img4"
+        "text2 img5";
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #indice{
+        grid-template-columns: 1fr;
+        grid-template-rows: (8, 1fr);
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img2"
+        "text1"
+        "img3"
+        "img4"
+        "text2"
+        "img5";
+    }
+}
+
+/*media queries carousel*/
+@media (max-width:768px){
+    .contenedor-carousel {
+        width: 400px;
+        height: 200px;
+    }
+
+    .carousel-image{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (max-width:480px){
+    .contenedor-carousel {
+        width: 200px;
+        height: 100px;
+    }
+
+    .carousel-image{
+        width: 200px;
+        height: 100px;
+    }
+}
+
+/*media queries card*/
+@media only screen and (max-width: 768px) {
+    .card-contenedor{
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .actividades-index{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+/*media queries mapa*/
+@media (max-width: 767px){
+    .mapa{
+        width: 90%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px){
+    .mapa{
+        width: 90%;
+        height: 500px;
+    }
+}
+
+/*media queries section actividades*/
+@media screen and (max-width: 768px){
+    .contenedor-actv{
+        flex-direction: column;
+    }
+}
+
+/*media queries header*/
+@media only screen and (max-width: 767px){
+    .header{
+        height: auto;
+    }
+
+        .header p{
+            font-size: 1rem;
+        }
+}
+
+/*media queries textos*/
+@media only screen and (max-width: 767px){
+    .p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .h1{
+        font-size: 2em;
+    }
+}
+
+/*media queries nav*/
+@media only screen and (max-width: 768px) {
+    .botonera img {
+        width: 20%;
+    }
+}

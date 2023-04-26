@@ -1,0 +1,20 @@
+//extends
+
+
+//mixins
+@mixin texts ($size, $line, $color){
+    //variables locales
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    //variable global
+    font-family: $mainFont;
+}
+
+
+@mixin flex ($direction, $justify, $aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}

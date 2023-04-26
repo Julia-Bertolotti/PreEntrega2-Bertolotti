@@ -299,7 +299,7 @@ input{
 /*section index*/
 .actividades-index{
     display: flex;
-    padding: 0 30p
+    padding: 0 50px;
 }
 
     .actividades-index figure{
@@ -444,6 +444,7 @@ input{
  
 
 /*MEDIA QUERIES*/
+
 /*media queries*/
 @media (min-width: 768px){
     .col-md-6 .col-lg-3 .card:hover{
@@ -492,6 +493,7 @@ input{
         "img4"
         "text2"
         "img5";
+        padding: 20px;
     }
 }
 
@@ -535,6 +537,7 @@ input{
     }
 }
 
+
 /*media queries mapa*/
 @media (max-width: 767px){
     .mapa{
@@ -553,9 +556,25 @@ input{
 /*media queries section actividades*/
 @media screen and (max-width: 768px){
     .contenedor-actv{
-        flex-direction: column;
-    }
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }   
+
+        .image, .div-parrafo{
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+
+        .div-parrafo{
+            text-align: center;
+            font-size: 1.5rem;
+        }
 }
+
+
 
 /*media queries header*/
 @media only screen and (max-width: 767px){
