@@ -24,7 +24,9 @@
             font-weight: 300;
             font-family:'Lato', sans-serif;
 }
-
+.navbar-brand{
+    width: 60%;
+}
 
 /*hover*/
 .card:hover{
@@ -280,19 +282,19 @@ input{
 }
 
 .img-nosotros{
-    background-image: url("../img/Nosotros/header-nosotros.jpg");
+    background-image: url("../img/Nosotros/header-nosotros.webp");
 }
 
 .img-actv{
-    background-image: url("../img/Actividades/header\ act.jpg");
+    background-image: url("../img/Actividades/header\ act.webp");
 }
 
 .img-instalaciones{
-    background-image: url("../img/Instalaciones/header-servicios.jpg");
+    background-image: url("../img/Instalaciones/header-servicios.webp");
 }
 
 .img-contacto{
-    background-image: url("../img/header-contacto.jpg");
+    background-image: url("../img/header-contacto.webp");
 }
 
 
@@ -563,14 +565,18 @@ input{
         align-items: center;
     }   
 
-        .image, .div-parrafo{
+        .image{
             flex-basis: 100%;
             max-width: 100%;
+            order: 1;
         }
 
         .div-parrafo{
+            flex-basis: 100%;
+            max-width: 100%;
             text-align: center;
             font-size: 1.5rem;
+            order: 2;
         }
 }
 
