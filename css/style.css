@@ -296,6 +296,8 @@ input{
             font-size: 1.4em;
             line-height: 1.6em;
             margin: 20px 0;
+            height: 230px;
+            overflow: hidden;
             text-align: center;
             color: rgb(69, 66, 66);
         }
@@ -307,7 +309,14 @@ input{
                 border-radius: 8px;
                 padding: 8px;
                 margin-bottom: 16px ;
+                float: right;
+}
 
+.contenedor{
+    width: 100%;
+    justify-content: center; 
+    margin: 20 px auto;
+    padding: 20px auto ;
 }
 
 .card-contenedor{
@@ -315,17 +324,8 @@ input{
     flex-direction: column;
     align-items: center;
     width: 400px;
-    height: 200px;
     margin: 0 40px;
 }
-
-.contenedor{
-    width: 100%;
-    justify-content: center; 
-    height: auto;
-    margin: 20 px auto;
-    padding: 20px auto ;
- }
 
  
 /*section actividades*/
