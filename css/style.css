@@ -253,6 +253,7 @@ iframe{
     margin: 0 30px;
 }
 
+
 /* section contacto*/
 .columna{
     flex-basis: 50%;
@@ -443,7 +444,24 @@ input{
         height: auto;
         margin: 40px auto;
 }
- 
+
+/*Error404*/
+.contenedor-error{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-error{
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: rgb(246, 231, 203);
+    border: none;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -558,7 +576,7 @@ input{
 /*media queries section actividades*/
 @media screen and (max-width: 768px){
     .contenedor-actv{
-        display: block;
+        display: flex;
         width: 90%;
         margin: 0 auto;
         justify-content: center;
@@ -610,5 +628,12 @@ input{
 @media only screen and (max-width: 768px) {
     .botonera img {
         width: 20%;
+    }
+}
+
+/*media queries error404*/
+@media screen and (max-width:767px){
+    h1{
+        font-size: 20px;
     }
 }
