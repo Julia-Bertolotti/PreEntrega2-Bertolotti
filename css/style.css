@@ -210,8 +210,8 @@ iframe{
     padding-bottom: 30px; 
 }
 
-
-.img-index{
+/*index-figure*/
+.img-figure{
     max-width: 100%;
 }
 
@@ -261,9 +261,11 @@ input{
 
 
 /*imagenes de header*/
-.img-index{
-    background-image: url("../img/Index/header-index.webp");
+.img-heroe{
+    width: 100%;
+    object-fit: cover;
 }
+
 
 .img-nosotros{
     background-image: url("../img/Nosotros/header-nosotros.webp");
@@ -327,6 +329,13 @@ input{
     margin: 0 40px;
 }
 
+.card-text{
+    font-size: 1.5em;
+}
+
+.figure{
+    text-align: center;
+}
  
 /*section actividades*/
 .contenedor-actv{
@@ -355,7 +364,7 @@ input{
 #indice{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 300px 200px;
+    grid-template-rows: 300px 230px;
     grid-template-areas:
     "text1 img1 img2 img4"
     "img3 img5 img2 text2";
@@ -403,9 +412,9 @@ input{
 /*cards*/
 .contenedor-card{
     height: 100%;
-    width: 80%;
     justify-content: center;
-    margin: 20px 30px;
+    margin: 5%;
+    padding: 5px;
 }
 
 
@@ -479,10 +488,6 @@ input{
     .flex {
         flex-direction: column;
     }
-
-    .columna {
-        width: 100%;
-    }
 }
 
 
@@ -533,12 +538,12 @@ input{
 
 @media (max-width:480px){
     .contenedor-carousel {
-        width: 200px;
+        width: 250px;
         height: 100px;
     }
 
     .carousel-image{
-        width: 200px;
+        width: 250px;
         height: 100px;
     }
 }
@@ -642,5 +647,15 @@ input{
     h1{
         font-size: 25px;
         text-align: center;
+    }
+}
+
+/*media queries footer*/
+@media (max-width: 600px){
+    footer{
+        padding: 10px 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
