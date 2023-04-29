@@ -255,23 +255,8 @@ input{
 /*imagenes de header*/
 .img-heroe{
     width: 100%;
-}
-
-
-.img-nosotros{
-    background-image: url("../img/Nosotros/header-nosotros.webp");
-}
-
-.img-actv{
-    background-image: url("../img/Actividades/header\ act.webp");
-}
-
-.img-instalaciones{
-    background-image: url("../img/Instalaciones/header-servicios.webp");
-}
-
-.img-contacto{
-    background-image: url("../img/header-contacto.webp");
+    height: 80vh;
+    object-fit: cover;
 }
 
 
@@ -290,7 +275,7 @@ input{
 
         .actividades-index figure p{
             width: 100%;
-            font-size: 1em;
+            font-size: 1.2em;
             margin: 20px 0;
             height: 180px;
             overflow: hidden;
