@@ -10,6 +10,8 @@ $pColor: rgb(117, 91, 91);
 $hoverColor: blue;
 $figureColor: rgb(69, 66, 66);
 $footerColor: rgb(220, 220, 170);
+$contenedorColor: rgb(250, 246, 246);
+$buttonColor: rgb(246, 231, 203);
 
 //fonts
 $mainFont:'Lato', sans-serif;
@@ -19,4 +21,48 @@ $textMd: 2.5em;
 $textLg: 3em;
 $textBold: 700;
 $textWeight: 300;
+$fontsizeXl: 3rem;
+$fontsizeH2: 2.5em;
+$fontsizeL: 2em;
+$fontsizeMd: 1.5em;
+$fontsizeP: 1.4em;
+$fontsizeSm: 1.2em;
+$fontsizeExtrasm: 1em;
+$fontsizeButton: 15px;
 
+//width y height
+$widthXl: 100%;
+$widthL: 70%;
+$maxWidth: 100%;
+$maxwidthMd: 50%;
+$heightXl: 100%;
+$heightL: 50%;
+$heightVh: 100vh;
+$heightHeroe: 80vh;
+$lineheightMd: 1.5em;
+
+//flex - grid
+$displayFlex: flex;
+$displayGrid: grid;
+$flexColumn: column;
+$flexBasis: 50%;
+$flexbasisXl: 100%;
+
+//alineacion
+$justifyCenter: center;
+$alignCenter: center;
+$textCenter: center;
+$textLeft: left;
+$textRight: right;
+
+//order
+$orderUno: 1;
+$orderDos: 2;
+$orderTres: 3;
+
+//object-fit
+$objectCover: cover;
+
+//text-decoration
+$decorationNone: none;
+$decorationUnderline: underline;

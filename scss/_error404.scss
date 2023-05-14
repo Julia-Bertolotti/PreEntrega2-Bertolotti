@@ -1,0 +1,17 @@
+//error404
+.contenedor-error{
+    display: $displayFlex;
+    flex-direction: $flexColumn;
+    height: $heightVh;
+    gap: 30px;
+    align-items: $alignCenter;
+    justify-content: $justifyCenter;
+}
+
+.button.error{
+    padding: 15px 20px;
+    font-size: $fontsizeButton;
+    border-radius: 15px;
+    background-color: $buttonColor;
+    border: none;
+}

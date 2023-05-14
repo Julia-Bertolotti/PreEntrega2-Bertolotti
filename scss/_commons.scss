@@ -1,56 +1,83 @@
-h1, 
-h2, 
-h3{
-   color: $hColor;
-   font-family: $mainFont;
-   font-weight: $textBold;
-}
-
-h1{
-    font-size: $textLg;
-}
-
-h2{
-    font-size: $textMd;
-}
-
-h3{
-    font-size: $textSm;
+//commons
+.bg-fondo{
+    background-color: $mainColor;
 }
 
 p{
     color: $pColor;
     font-family: $mainFont;
-    font-weight: 300;
-    font-size: 1.4em;
-    line-height: 1.5em;
+    font-weight: $textWeight;
+    font-size: $fontsizeP;
+    line-height: $lineheightMd;
 }
 
+.img-heroe{
+    width: $widthXl;
+    height: $heightHeroe;
+    object-fit: $objectCover;
+}
+
+.padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.order1{
+    order: $orderUno;
+}
+
+.order2{
+    order: $orderDos;
+}
+
+.order3{
+    order: $orderTres;
+}
+
+.text-center{
+    text-align: $textCenter;
+}
+
+.text-left{
+    text-align: $textLeft;
+}
+
+.text-right{
+    text-align: $textRight;
+}
+
+//footer
 footer{
-    display: flex;
-    position: static;
+    display: $displayFlex;
     padding: 30px 30px;
     background-color: $footerColor;
-    width: 100%;
+    width: $widthXl;
     justify-content: space-around;
     a{
-        text-decoration: none;
-    } 
-
+        text-decoration: $decorationNone;
+    }
     p{
         color: $textColor;
         font-size: $textExtrasm;
-    }    
-}
-
-label{
-    color: $textColor;
-}
-
-main{
-    section{
-        p{
-           @include textos(1.2em, 1.6em, white)
-        }
     }
+}
+
+h1,
+h2,
+h3{
+    color: $hColor;
+    font-family: $mainFont;
+    font-weight: $textBold;
+}
+
+h1{
+    font-size: $fontsizeXl;
+}
+
+h2{
+    font-size: $fontsizeH2;
+}
+
+h3{
+    font-size: $fontsizeL;
 }

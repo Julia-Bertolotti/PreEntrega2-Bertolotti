@@ -1,0 +1,21 @@
+//section actividades
+.contenedor-actv{
+    display: $displayFlex;
+    width: $widthXl;
+    flex-wrap: wrap;
+    align-items: $alignCenter;
+}
+
+.image{
+    flex-basis: $flexBasis;
+    max-width: $maxwidthMd;
+    height: auto;
+    object-fit: $objectCover;
+}
+
+.div-parrafo{
+    flex-basis: $flexBasis;
+    max-width: $maxwidthMd;
+    align-items: $alignCenter;
+    padding: 0 40px; 
+}

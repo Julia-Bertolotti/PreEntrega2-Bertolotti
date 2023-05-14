@@ -1,39 +1,64 @@
-//index
+.contenedor-flex{
+    display: $displayFlex;
+    justify-content: $justifyCenter;
+    align-items: $alignCenter;
+}
 
+.contenedor-texto{
+    width: $widthL;
+    height: $heightL;
+    background-color: $contenedorColor;
+    margin: 20px 50px;
+    padding: 30px;
+}
+
+.contenedor{
+    width: $widthXl;
+    justify-content: $justifyCenter;
+    margin: 20px auto;
+    padding: 20px auto;
+}
 
 .actividades-index{
-    display: flex;
-    padding: 0 30p;
+    display: $displayFlex;
+    padding: 0 50px;
+    
     figure{
-        justify-content: center;
+        display: $displayFlex;
+        margin: 0 1rem;
+        flex-direction: $flexColumn;
+        align-items: $alignCenter;
+
         p{
-            color: $figureColor;
+            width: $widthXl;
+            font-size: $fontsizeSm;
             margin: 20px 0;
-            text-align: center;
-            line-height: 1.6em;
-            font-size: 1.4em;
+            height: 180px;
+            overflow: hidden;
+            text-align: $textCenter;
+            color: $figureColor;
         }
-        button{
-           background-color: $secondaryColor;
-           color: $textColor;
-           border: solid;
-           border-radius: 8px;
-           padding: 8px;
-           margin-bottom: 16px ;
+        
+        buton{
+            border: solid;
+            background-color: $secondaryColor;
+            color: $textColor;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 16px;
+            float: right;
         }
-    }
-
-}
-
-.contenedor-index{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    img{
-        max-width: 50%;
-        height: auto;
-        margin: 40px auto; 
     }
 }
 
- 
+.card-contenedor{
+    display: $displayFlex;
+    flex-direction: $flexColumn;
+    align-items: $alignCenter;
+    width: $widthXl;
+    margin: 0 40px;
+}
+
+.img-index{
+    max-width: $maxWidth;
+}

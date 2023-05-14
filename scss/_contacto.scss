@@ -1,1 +1,29 @@
-//contacto
+//section contacto
+.text-center{
+    text-align: $alignCenter;
+}
+
+.columna{
+    flex-basis: $flexBasis;
+}
+
+.columna-derecha{
+    justify-content: flex-end;
+    align-items: $alignCenter;
+    padding: 30px;
+    margin: 20px;
+}
+
+.columna-izquierda{
+    justify-content: flex-start;
+    align-items: $alignCenter;
+    padding: 30px;
+}
+
+label{
+    color: $textColor;
+}
+
+input{
+    margin-bottom: 10px;
+}

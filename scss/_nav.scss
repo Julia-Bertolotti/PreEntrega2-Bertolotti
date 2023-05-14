@@ -1,24 +1,27 @@
-//anidación
+//nav
 .botonera{
-    color: $botoneraColor;
+    background-color: $botoneraColor;
     img{
         width: 30%;
         height: 30%;
     }
-
     ul{
         li{
             a{
                 color: $textColor;
-                font-family: $mainFont;
-                text-decoration: none;
-                font-size: $textExtrasm;
+                text-decoration: $decorationNone;
+                font-size: $fontsizeSm;
                 font-weight: $textWeight;
+                font-family: $mainFont;
                 &:hover{
                     color: $hoverColor;
-                    text-decoration: underline;
+                    text-decoration: $decorationUnderline;
                 }
             }
         }
     }
+}
+
+.navbar-brand{
+    width: 60%;
 }

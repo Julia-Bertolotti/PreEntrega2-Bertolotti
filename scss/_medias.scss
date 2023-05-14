@@ -1,23 +1,16 @@
-/*MEDIA QUERIES*/
-/*media queries*/
+//media querie card
 @media (min-width: 768px){
     .col-md-6 .col-lg-3 .card:hover{
         transform: scale(1.1);
     }
 }
 
-
 /*media queries section contacto*/
 @media only screen and (max-width: 768px){
     .flex {
-        flex-direction: column;
-    }
-
-    .columna {
-        width: 100%;
+        flex-direction: $flexColumn;
     }
 }
-
 
 /*media queries grid*/
 @media (max-width: 768px){
@@ -29,8 +22,8 @@
         "img2 text1"
         "img3 img4"
         "text2 img5";
-        justify-items: center;
-        align-items: center;
+        justify-items: $justifyCenter;
+        align-items: $alignCenter;
     }
 }
 
@@ -47,6 +40,7 @@
         "img4"
         "text2"
         "img5";
+        padding: 20px;
     }
 }
 
@@ -65,12 +59,12 @@
 
 @media (max-width:480px){
     .contenedor-carousel {
-        width: 200px;
+        width: 250px;
         height: 100px;
     }
 
     .carousel-image{
-        width: 200px;
+        width: 250px;
         height: 100px;
     }
 }
@@ -78,15 +72,15 @@
 /*media queries card*/
 @media only screen and (max-width: 768px) {
     .card-contenedor{
-        flex-basis: 100%;
+        flex-basis: $flexbasisXl;
     }
 }
 
 @media only screen and (max-width: 768px){
     .actividades-index{
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
+        flex-direction: $flexColumn;
+        justify-items: $justifyCenter;
+        align-items: $alignCenter;
     }
 }
 
@@ -108,8 +102,26 @@
 /*media queries section actividades*/
 @media screen and (max-width: 768px){
     .contenedor-actv{
-        flex-direction: column;
-    }
+        display: $displayFlex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: $justifyCenter;
+        align-items: $alignCenter;
+    }   
+
+        .image{
+            flex-basis: $flexbasisXl;
+            max-width: $maxWidth;
+            order: $orderUno;
+        }
+
+        .div-parrafo{
+            flex-basis: $flexbasisXl;
+            max-width: $maxWidth;
+            font-size: $fontsizeMd;
+            order: $orderDos;
+            text-align: $alignCenter;
+        }
 }
 
 /*media queries header*/
@@ -119,7 +131,7 @@
     }
 
         .header p{
-            font-size: 1rem;
+            font-size: $fontsizeExtrasm;
         }
 }
 
@@ -132,13 +144,38 @@
 
 @media only screen and (max-width: 767px){
     .h1{
-        font-size: 2em;
+        font-size: $fontsizeL;
     }
 }
 
 /*media queries nav*/
 @media only screen and (max-width: 768px) {
     .botonera img {
-        width: 20%;
+        width: 40%;
+    }
+}
+
+/*media queries error404*/
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 30px;
+        text-align: $alignCenter;
+    }
+}
+
+@media (max-width:320px){
+    h1{
+        font-size: 25px;
+        text-align: $alignCenter;
+    }
+}
+
+/*media queries footer*/
+@media (max-width: 600px){
+    footer{
+        padding: 10px 20px;
+        justify-content: $justifyCenter;
+        flex-direction: $flexColumn;
+        align-items: $alignCenter;
     }
 }
