@@ -138,21 +138,6 @@ p{
     margin: 0 40px;
 }
 
-.card-text{
-    font-size: 1.5em
-}
-
-.contenedor-index{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-}
-
-    .contenedor-index img{
-        max-width: 50%;
-        height: auto;
-        margin: 40px auto;
-}
 
 /*index-figure*/
 .img-index{
@@ -192,6 +177,10 @@ p{
     width: 70%;
     height: auto;
     margin: 50px auto;
+}
+
+.card-text{
+    font-size: 1.5em
 }
 
 .heroe{

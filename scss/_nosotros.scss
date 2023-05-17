@@ -28,12 +28,19 @@
     padding: 30px;
 }
 
+//carousel
+.carousel-image{
+    max-width: $maxWidth;
+    height: auto;
+}
+
 .contenedor-carousel{
     width: $widthL;
     height: auto;
     margin: 50px auto;
 }
 
+//video
 .video-contendor{
     max-width: $maxWidth;
     height: 500px;
